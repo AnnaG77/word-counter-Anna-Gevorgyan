@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./svetlye-bliki-na-cvetnom-fone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(rgb(57, 234, 254), rgb(208, 121, 238));
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+
+.main div {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: rgb(55, 53, 34) solid 2px;
+}
+
+p {
+    color: rgb(26, 26, 66);
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+}
